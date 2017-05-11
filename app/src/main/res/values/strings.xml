@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">Concesionario</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Strings de la activity Opciones-->
+    <string name="tituloOpciones">OPCIONES</string>
+    <string-array name="lstOpciones">
+        <item>@string/registrar</item>
+        <item>@string/listar</item>
+        <item>@string/reportar</item>
+    </string-array>
+    <string name="registrar">Registrar</string>
+    <string name="listar">Listar</string>
+    <string name="reportar">Informes</string>
+
+    <!--Strings de la activity Registrar-->
+    <string name="title_activity_registrar">Registrar</string>
+    <string name="lblPlaca">Placa</string>
+    <string name="lblMarca">Marca</string>
+    <string name="lblModelo">Modelo</string>
+    <string name="lblColor" translatable="false">Color</string>
+    <string name="lblPrecio">Precio</string>
+    <string-array name="marca_spinner">
+        <item>@string/kia</item>
+        <item>@string/chevrolet</item>
+        <item>@string/renault</item>
+    </string-array>
+    <string name="kia" translatable="false">Kia</string>
+    <string name="chevrolet" translatable="false">Chevrolet</string>
+    <string name="renault" translatable="false">Renault</string>
+    <string-array name="modelo_spinner">
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+    </string-array>
+    <string-array name="color_spinner">
+        <item>@string/amarillo</item>
+        <item>@string/rojo</item>
+        <item>@string/azul</item>
+    </string-array>
+    <string name="amarillo">Amarillo</string>
+    <string name="rojo">Rojo</string>
+    <string name="azul">Azul</string>
+    <string name="msjTitulo">Notificación</string>
+    <string name="msjCuerpo">Carro guardado correctamente</string>
+    <string name="msjError1Cuerpo">Los 3 primeros caracteres de la placa deben ser letras</string>
+    <string name="msjError2Cuerpo">Los 3 últimos caracteres de la placa deben ser números</string>
+    <string name="msjError3Cuerpo">El campo placa no puede estar vacío</string>
+    <string name="msjError4Cuerpo">El campo placa debe contener 6 caracteres</string>
+
+    <!--Strings de la activity Listar-->
+    <string name="title_activity_listar">Listar</string>
+
+    <!--Strings de la activity Reportar-->
+    <string name="title_activity_reportar">Reportar</string>
+    <string name="tituloInformes">INFORMES</string>
+    <string-array name="Informes_array">
+        <item>@string/informe_1</item>
+        <item>@string/informe_2</item>
+        <item>@string/informe_3</item>
+        <item>@string/informe_4</item>
+        <item>@string/informe_5</item>
+        <item>@string/informe_6</item>
+    </string-array>
+    <string name="informe_1">No. de Carros registrados</string>
+    <string name="informe_2">No. de Carros registrados por marca</string>
+    <string name="informe_3">No. de Carros registrados por color</string>
+    <string name="informe_4">Lista de Carros registrados modelos 2010 - 2015</string>
+    <string name="informe_5">Datos del carro más costoso</string>
+    <string name="informe_6">Datos del carro más económico</string>
+
+    <!--Strings de los botones-->
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnLimpiar">Limpiar</string>
+
+    <!--Strings de la activity Informe_1-->
+    <string name="title_activity_informe_1" translatable="false">Informe_1</string>
+    <string name="lblInforme1">La cantidad de carros registrados es: </string>
+
+    <!--Strings de la activity Informe_2-->
+    <string name="title_activity_informe_2" translatable="false">Informe_2</string>
+    <string name="lblInforme2">CARROS REGISTRADOS POR MARCA</string>
+    <string name="lblInforme2_1">Carros registrados Kia: </string>
+    <string name="lblInforme2_2">Carros registrados Chevrolet: </string>
+    <string name="lblInforme2_3">Carros registrados Renault: </string>
+
+    <!--Strings de la activity Informe_3-->
+    <string name="title_activity_informe_3" translatable="false">Informe_3</string>
+    <string name="lblInforme3">CARROS REGISTRADOS POR COLOR</string>
+    <string name="lblInforme3_1">Carros registrados de color amarillo:</string>
+    <string name="lblInforme3_2">Carros registrados de color rojo:</string>
+    <string name="lblInforme3_3">Carros registrados de color azul:</string>
+
+    <!--Strings de la activity Informe_4-->
+    <string name="title_activity_informe_4" translatable="false">Informe_4</string>
+
+    <!--Strings de la activity Informe_5-->
+    <string name="title_activity_informe_5" translatable="false">Informe_5</string>
+
+    <!--Strings de la activity Informe_6-->
+    <string name="title_activity_informe_6" translatable="false">Informe_6</string>
+</resources>

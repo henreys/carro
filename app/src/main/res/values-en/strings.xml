@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Concessionaire</string>
+    <string name="amarillo">Yellow</string>
+    <string name="azul">Blue</string>
+    <string name="btnLimpiar">Clear</string>
+    <string name="btnRegistrar">Save</string>
+    <string name="informe_1">Registered cars number</string>
+    <string name="informe_2">Registered cars number by trademark</string>
+    <string name="informe_3">Registered cars number by color</string>
+    <string name="informe_4">List of registered cars from model 2010 - 2015</string>
+    <string name="informe_5">Details of the most expensive car</string>
+    <string name="informe_6">Details of cheaper car</string>
+    <string name="lblInforme1">Number of registered cars is:</string>
+    <string name="lblInforme2">CAR REGISTERED BY BRAND</string>
+    <string name="lblInforme2_1">Registered cars Kia:</string>
+    <string name="lblInforme2_2">Registered cars Chevrolet:</string>
+    <string name="lblInforme2_3">Registered cars Renault:</string>
+    <string name="lblInforme3">CAR REGISTERED BY COLOR</string>
+    <string name="lblInforme3_1">Registered yellow cars:</string>
+    <string name="lblInforme3_2">Registered red cars:</string>
+    <string name="lblInforme3_3">Registered blue cars:</string>
+    <string name="lblMarca">Mark</string>
+    <string name="lblModelo">Model</string>
+    <string name="lblPlaca">License plate</string>
+    <string name="lblPrecio">Cost</string>
+    <string name="listar">List</string>
+    <string name="msjCuerpo">Car saved successfully</string>
+    <string name="msjTitulo">Notification</string>
+    <string name="registrar">Register</string>
+    <string name="reportar">Reports</string>
+    <string name="rojo">Red</string>
+    <string name="title_activity_listar">List</string>
+    <string name="title_activity_registrar">Register</string>
+    <string name="title_activity_reportar">Report</string>
+    <string name="tituloInformes">REPORTS</string>
+    <string name="tituloOpciones">OPTIONS</string>
+    <string name="msjError1Cuerpo">The first 3 characters plate must be letters</string>
+    <string name="msjError2Cuerpo">The last 3 characters plate must be numbers</string>
+    <string name="msjError3Cuerpo">The plate must be filled</string>
+    <string name="msjError4Cuerpo">The length of plate characters must be 6</string>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.altamar.miguelangel.concesionario"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.altamar.miguelangel.concesionario.Opciones"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.altamar.miguelangel.concesionario.Registrar"
+            android:label="@string/title_activity_registrar" >
+        </activity>
+        <activity
+            android:name="com.altamar.miguelangel.concesionario.Listar"
+            android:label="@string/title_activity_listar" >
+        </activity>
+        <activity
+            android:name="com.altamar.miguelangel.concesionario.Reportar"
+            android:label="@string/title_activity_reportar" >
+        </activity>
+        <activity
+            android:name="com.altamar.miguelangel.concesionario.Informe_1"
+            android:label="@string/title_activity_informe_1" >
+        </activity>
+        <activity
+            android:name="com.altamar.miguelangel.concesionario.Informe_2"
+            android:label="@string/title_activity_informe_2" >
+        </activity>
+        <activity
+            android:name="com.altamar.miguelangel.concesionario.Informe_3"
+            android:label="@string/title_activity_informe_3" >
+        </activity>
+        <activity
+            android:name="com.altamar.miguelangel.concesionario.Informe_4"
+            android:label="@string/title_activity_informe_4" >
+        </activity>
+        <activity
+            android:name="com.altamar.miguelangel.concesionario.Informe_5"
+            android:label="@string/title_activity_informe_5" >
+        </activity>
+        <activity
+            android:name="com.altamar.miguelangel.concesionario.Informe_6"
+            android:label="@string/title_activity_informe_6" >
+        </activity>
+    </application>
+
+</manifest>

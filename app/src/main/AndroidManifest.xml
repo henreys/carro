@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.altamar.miguelangel.concesionario" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Opciones"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Registrar"
+            android:label="@string/title_activity_registrar" >
+        </activity>
+        <activity
+            android:name=".Listar"
+            android:label="@string/title_activity_listar" >
+        </activity>
+        <activity
+            android:name=".Reportar"
+            android:label="@string/title_activity_reportar" >
+        </activity>
+        <activity
+            android:name=".Informe_1"
+            android:label="@string/title_activity_informe_1" >
+        </activity>
+        <activity
+            android:name=".Informe_2"
+            android:label="@string/title_activity_informe_2" >
+        </activity>
+        <activity
+            android:name=".Informe_3"
+            android:label="@string/title_activity_informe_3" >
+        </activity>
+        <activity
+            android:name=".Informe_4"
+            android:label="@string/title_activity_informe_4" >
+        </activity>
+        <activity
+            android:name=".Informe_5"
+            android:label="@string/title_activity_informe_5" >
+        </activity>
+        <activity
+            android:name=".Informe_6"
+            android:label="@string/title_activity_informe_6" >
+        </activity>
+    </application>
+
+</manifest>
